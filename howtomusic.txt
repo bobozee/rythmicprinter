@@ -1,0 +1,15 @@
+
+To add a new valid piece to be rythmically printed, create a .json file and call it whatever you'd like
+
+The Json needs three properties: text, rythm and speed.
+
+Text is simply the text that is to be printed out. {your text} defines one line, while adding another curly brace ({{ at the beginning) signifies the start of a new stanza.
+Make sure to start your Text with a new stanza before anything.
+
+Rythm is the sequence of notes that composes the timing of the printing. Each digit represents one note, with each digit's value representing the length of the note.
+1 would equate to a whole note, 2 to a half note, 3 to a half note with a dot, 4 to a quarter note, etc up to 8 as far as I know.
+
+Speed is simply the speed of the rythm measured in bpm.
+
+
+Please refer to the sample piece "boyatNastana.json" for help.

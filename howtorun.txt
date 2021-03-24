@@ -1,0 +1,2 @@
+
+To run the program, merely execute the batch file. Type in the piece you wish to rythmically print (don't forget the ".json" at the end), and voila.
